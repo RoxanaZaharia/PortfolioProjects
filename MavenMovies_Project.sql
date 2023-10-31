@@ -6,6 +6,8 @@ Please send over the managers’ names at each store, with the full address
 of each property (street address, district, city, and country please).  
 */ 
 
+USE mavenmovies;
+
 SELECT 
 	staff.first_name AS manager_first_name, 
     staff.last_name AS manager_last_name,
